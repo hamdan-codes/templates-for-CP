@@ -52,9 +52,6 @@ https://github.com/hamdan-codes/templates-for-CP/
 #define mk(arr,n,type)  type *arr=new type[n]
 #define w(x)            int x; cin>>x; while(x--)
 #define f(i,x,y,inc)    for(int i = x; i < y; i += inc)
-#define in(x)           int x; scanf("%lld",&x)
-#define out(x)          printf("%lld",x)
-#define outn            printf("\n")
 
 
 
