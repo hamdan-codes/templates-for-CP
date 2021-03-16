@@ -1,29 +1,19 @@
-// Author Chaudhary Hamdan
-// Github link : https://github.com/hamdan-codes
-
+/*
+ * Author Chaudhary Hamdan
+ * C++ Template for Competitive Programming
+ * Github link : https://github.com/hamdan-codes
+ * */
 
 /*
-Template available at my Github
-Repository Link :-
-https://github.com/hamdan-codes/templates-for-CP/
-*/
+ * Template available at my Github
+ * Repository Link :-
+ * https://github.com/hamdan-codes/templates-for-CP/
+ * */
+
 
 
 
 #include <bits/stdc++.h>
-#include <iostream>
-#include <algorithm>
-#include <cmath>
-#include <string>
-#include <cstring>
-#include <string>
-#include <list>
-#include <vector>
-#include <queue>
-#include <stack>
-#include <map>
-#include <unordered_map>
-#include <set>
 
 #include <ext/pb_ds/assoc_container.hpp>
 #include <ext/pb_ds/exception.hpp>
@@ -48,10 +38,10 @@ https://github.com/hamdan-codes/templates-for-CP/
 #define mod             1000000007
 #define inf             LONG_LONG_MAX
 #define ps(x,y)         fixed<<setprecision(y)<<x
-#define endl            "\n"
+#define endl            '\n'
 #define mk(arr,n,type)  type *arr=new type[n]
-#define w(x)            int x; cin>>x; while(x--)
-#define f(i,x,y,inc)    for(int i = x; i < y; i += inc)
+#define w(x)            int x; cin >> x; while(x--)
+#define f(i,x,y)        for(int i = x; i < y; i++)
 
 
 
@@ -72,18 +62,31 @@ void c_p_p()
 	freopen("C:\\Users\\KIIT\\output.txt", "w", stdout);
 #endif
 }
-//--------------------------- Your Functions Below ----------------------------------------------
+/* ********************* Your Functions Below ********************** */
 
 
 
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+/* ********************* Your Functions Above ********************** */
 
 int32_t main()
 {
 	c_p_p();
-	//--------------------------- Your Code Below -----------------------------------------------
+
+	/* *************** Your main function Code Below ****************** */
 
 
 
@@ -94,6 +97,18 @@ int32_t main()
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+	/* **************** Your main function Code Above ****************** */
 
 	return 0;
 }
