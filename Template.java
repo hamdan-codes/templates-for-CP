@@ -1,28 +1,28 @@
-// Author Chaudhary Hamdan
-// Java Template with fast IO Coded
-// Github link : https://github.com/hamdan-codes
-
+/*
+ * Author Chaudhary Hamdan
+ * Java Template with fast IO Coded for Competitive Programming
+ * Github link : https://github.com/hamdan-codes
+ */
 
 /*
-Template available at my Github
-Repository Link :-
-https://github.com/hamdan-codes/templates-for-CP/
-*/
+ * Template available at my Github
+ * Repository Link :-
+ * https://github.com/hamdan-codes/templates-for-CP/
+ */
 
 
 
 /*
  * FAST READER is used from www.geeksforgeeks.org
- * refer at https://www.geeksforgeeks.org/fast-io-in-java-in-competitive-programming/
- *
- * */
+ * Refer at https://www.geeksforgeeks.org/fast-io-in-java-in-competitive-programming/
+ */
 
 import java.io.*;
 import java.util.*;
 
 
 
-//****************** Your Classes below ****************************
+/* ***************** Your Classes below ************************ */
 
 
 
@@ -43,15 +43,16 @@ import java.util.*;
 
 
 
+/* ***************** Your Classes Above ************************ */
 
-class Template {             // ******* Main Class , Rename it as required ******
+class Template {             /* ***** Main Class , Rename it as required ***** */
 
 	static Reader br;
 	public static void main(String[] args) throws Exception {
 		String path = "C:\\Users\\KIIT\\";
 
 		try {
-			br = new Reader(path + "input.txt");
+			br = new Reader(path + "input");
 		}
 
 		catch (Exception e) {
@@ -60,7 +61,7 @@ class Template {             // ******* Main Class , Rename it as required *****
 
 
 		try {
-			PrintStream stream = new PrintStream(new File(path + "output.txt"));
+			PrintStream stream = new PrintStream(new File(path + "output"));
 			System.setOut(stream);
 		}
 
@@ -71,18 +72,16 @@ class Template {             // ******* Main Class , Rename it as required *****
 
 
 		/*
-
-		To read variables from keyboard use aliases of functions made below
-		As for int :
-		int i = ri();
-
-
-		To print multiple test cases :
-		Write as sb.append("Your Answer\n")
-
-		And after end of all testcases write
-		System.out.println(sb);
-		*/
+		 * To read variables from keyboard use aliases of functions made below
+		 * As for int :
+		 * int i = ri();
+		 *
+		 * To print multiple test cases :
+		 * Write as sb.append("Your Answer\n")
+		 *
+		 * And after end of all testcases write
+		 * System.out.println(sb);
+		 */
 
 		/* ************* Your Main Function Code Below *************** */
 
@@ -112,10 +111,10 @@ class Template {             // ******* Main Class , Rename it as required *****
 
 
 
-
+		/* ************* Your Main Function Code Above *************** */
 	}
 
-// ****************** Your Main Class Functions Below ****************************
+	/* **************** Your Main Class Functions Below ***************** */
 
 
 
@@ -160,9 +159,9 @@ class Template {             // ******* Main Class , Rename it as required *****
 
 
 
-// ****************** Your Main Class Functions Above ***********************
+	/* ****************** Your Main Class Functions Above ****************** */
 
-	/* HELPER FUNCTIONS CREATED BY CHAUDHARY HAMDAN ON 07 February,2021*/
+	/* HELPER FUNCTIONS CREATED BY CHAUDHARY HAMDAN ON 07 February,2021 */
 
 	private static int ri() throws Exception {
 		return br.nextInt();
@@ -189,7 +188,7 @@ class Template {             // ******* Main Class , Rename it as required *****
 		System.out.println();
 	}
 
-	//**************************************************************************
+	/* *************************************************************** */
 	/*
 	 * FAST READER copied from www.geeksforgeeks.org
 	 * https://www.geeksforgeeks.org/fast-io-in-java-in-competitive-programming/
@@ -298,7 +297,8 @@ class Template {             // ******* Main Class , Rename it as required *****
 			din.close();
 		}
 	}
-	//**************************************************************************
+
+	/* ************************************************************* */
 
 
 
