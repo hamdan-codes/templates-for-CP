@@ -2,13 +2,13 @@
  * Author Chaudhary Hamdan
  * C++ Template for Competitive Programming
  * Github link : https://github.com/hamdan-codes
- * */
+ */
 
 /*
  * Template available at my Github
  * Repository Link :-
  * https://github.com/hamdan-codes/templates-for-CP/
- * */
+ */
 
 
 
@@ -30,18 +30,24 @@
 #define mp              make_pair
 #define pii             pair<int,int>
 #define vi              vector<int>
+#define vs              vector<string>
+#define gi              greater<int>
 #define mii             map<int,int>
 #define pqb             priority_queue<int>
-#define pqs             priority_queue<int,vi,greater<int> >
+#define pqs             priority_queue<int,vi,greater<int>>
+#define all(x)          x.begin(),x.end()
 #define setbits(x)      __builtin_popcountll(x)
 #define zrobits(x)      __builtin_ctzll(x)
 #define mod             1000000007
+#define pi              3.14159265358979323846264338327950288419716939937510
 #define inf             LONG_LONG_MAX
 #define ps(x,y)         fixed<<setprecision(y)<<x
 #define endl            '\n'
-#define mk(arr,n,type)  type *arr=new type[n]
+#define mk(type,arr,n)  type *arr=new type[n]
 #define w(x)            int x; cin >> x; while(x--)
 #define f(i,x,y)        for(int i = x; i < y; i++)
+#define rf(i,x,y)       for(int i = x; i >= y; i--)
+#define test(x)         int zyx; cin >> zyx; for(int x=1;x<=zyx;x++)
 
 
 
@@ -58,11 +64,11 @@ void c_p_p()
 {
 	ios_base::sync_with_stdio(0); cin.tie(0); cout.tie(0);
 #ifndef ONLINE_JUDGE
-	freopen("C:\\Users\\KIIT\\input.txt", "r", stdin);
-	freopen("C:\\Users\\KIIT\\output.txt", "w", stdout);
+	freopen("C:\\Users\\KIIT\\input", "r", stdin);
+	freopen("C:\\Users\\KIIT\\output", "w", stdout);
 #endif
 }
-/* ********************* Your Functions Below ********************** */
+/* ********************* Your Functions and Classes Below ********************** */
 
 
 
@@ -80,13 +86,20 @@ void c_p_p()
 
 
 
-/* ********************* Your Functions Above ********************** */
 
-int32_t main()
+
+/* ********************* Your Functions and Classes Above ********************** */
+
+main()
 {
 	c_p_p();
 
 	/* *************** Your main function Code Below ****************** */
+
+
+
+
+
 
 
 
