@@ -28,7 +28,8 @@
 #define amin(a,b)          if(b<a) swap(a, b)
 #define pb                 push_back
 #define mp                 make_pair
-#define pii                pair<int, int>
+#define ii                 int, int
+#define pii                pair<ii>
 #define vi                 vector<int>
 #define vvi                vector<vi>
 #define si                 set<int>
@@ -38,7 +39,7 @@
 #define vpii               vector<pii>
 #define vs                 vector<string>
 #define gi                 greater<int>
-#define mii                map<int, int>
+#define mii                map<ii>
 #define pqb                priority_queue<int>
 #define pqs                priority_queue<int, vi, gi>
 #define all(x)             x.begin(), x.end()
@@ -57,7 +58,7 @@
 #define lower(s)           transform(all(s), s.begin(), ::tolower)
 #define upper(s)           transform(all(s), s.begin(), ::toupper)
 #define mk(t,arr,n)        t *arr = new t[n]
-#define FI(i,x,y,inc)      for(int i = x; i < y; i+=inc)
+#define FI(i,x,y,inc)      for(int i = x; i < y; i += inc)
 #define F0(i,x)            FI(i, 0, x, 1)
 #define F(i,x,y)           FI(i, x, y, 1)
 #define RF(i,x,y)          for(int i = x; i >= y; i--)
@@ -68,6 +69,7 @@
 
 
 using namespace std;
+
 
 using namespace __gnu_pbds;
 using namespace __gnu_cxx;
@@ -149,6 +151,19 @@ int32_t main() {
 
 	return 0;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
