@@ -3,7 +3,7 @@
 ## This is a template used by me in various CP contests and for practicing CP.
 ## I use Sublime test 3 nowadays, as it's way too easy to handle as compared to VSC (XD).
 ## The below SS shows my window layout
-<img src="https://github.com/hamdan-codes/templates-for-CP/blob/main/Template-SS.PNG?raw=true" alt="CP Window Look" width="800">
+<img src="https://github.com/hamdan-codes/templates-for-CP/blob/main/Template-SS%20.png?raw=true" alt="CP Window Look" width="800">
 
 ### To make the window look like this, follow the following steps:
 #### 1. Click on View menu -> Layout -> Columns:3
