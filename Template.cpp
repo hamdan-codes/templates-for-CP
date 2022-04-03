@@ -1,7 +1,7 @@
 /*
  * Author: Chaudhary Hamdan (https://chaudharyhamdan.me/)
  *
- * Generated at : 
+ * Generated at : Sun Apr  3 23:00:20 2022
  *
  * C++ Template for Competitive Programming
  * Github link: https://github.com/hamdan-codes
@@ -29,6 +29,8 @@
 #define int                long long
 #define amax(a,b)          if(b>a) swap(a, b)
 #define amin(a,b)          if(b<a) swap(a, b)
+#define putmax(a,b)        a = max(a, b)
+#define putmin(a,b)        a = min(a, b)
 #define pb                 push_back
 #define mp                 make_pair
 #define ii                 int, int
@@ -43,9 +45,10 @@
 #define vs                 vector<string>
 #define vc                 vector<char>
 #define gi                 greater<int>
+#define umii               unordered_map<ii>
 #define mii                map<ii>
-#define pqb                priority_queue<int>
-#define pqs                priority_queue<int, vi, gi>
+#define max_heap           priority_queue<int>
+#define min_heap           priority_queue<int, vi, gi>
 #define all(x)             x.begin(), x.end()
 #define rev(x)             reverse(all(x))
 #define setbits(x)         __builtin_popcountll(x)
@@ -53,6 +56,7 @@
 #define deb(x)             cout << #x << "= " << x << endl;
 #define py                 cout<<"YES"<<endl
 #define pn                 cout<<"NO"<<endl
+#define pimp               cout<<"IMPOSSIBLE"<<endl
 #define pans               cout<<ans<<endl
 #define gcd                __gcd
 #define mod                1000000007
@@ -72,13 +76,15 @@
 #define rep(i,a)           for(auto &i : a)
 #define W(x)               int zyx; cin >> zyx; F(x, 1, zyx + 1)
 #define W1(x)              F(x, 1, 2)
-#define take(a,n)          vi a(n); F0(ari, n) cin >> a[ari];
-#define printa(arr,n)      F0(i_ar, n) cout << arr[i_ar] << ' '; cout << endl;
+#define take(a,n)          vi a(n); F0(ari, n) cin >> a[ari]
+#define taken(type,a,n)    int n; cin >> n; vector<type> a(n); rep(i, a) cin >> i;
+#define din(type,n)        type n; cin >> n
+#define in(n)              cin >> n
+#define printa(arr,n)      F0(i_ar, n) cout << arr[i_ar] << ' '; cout << endl
 #define FAST               ios_base::sync_with_stdio(0); cin.tie(0); cout.tie(0)
 
 
 using namespace std;
-
 
 using namespace __gnu_pbds;
 using namespace __gnu_cxx;
@@ -192,4 +198,3 @@ int32_t main() {
 
 	return 0;
 }
-
